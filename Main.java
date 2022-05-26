@@ -5,30 +5,30 @@ public class Main {
         Story storyDoProfesssorLindoDoMeuCoracao = new Story(6);
         storyDoProfesssorLindoDoMeuCoracao.push(professorLindoDoMeuCoracao.toString());
 
-        professorLindoDoMeuCoracao.setName("Alan");
-        professorLindoDoMeuCoracao.setPhone("(47)98899-0000");
-        professorLindoDoMeuCoracao.setEmail("alan@univille.br");
+        professorLindoDoMeuCoracao.setName("alan");
+        professorLindoDoMeuCoracao.setPhone("9566523");
+        professorLindoDoMeuCoracao.setEmail("allan@univille.br");
         storyDoProfesssorLindoDoMeuCoracao.push(professorLindoDoMeuCoracao.toString());
         storyDoProfesssorLindoDoMeuCoracao.pop();
 
-        professorLindoDoMeuCoracao.setName("Alanzoka");
-        professorLindoDoMeuCoracao.setPhone("(11)92233-1122");
-        professorLindoDoMeuCoracao.setEmail("alanzoka@twitch.tv");
+        professorLindoDoMeuCoracao.setName("alanzoka");
+        professorLindoDoMeuCoracao.setPhone("12345678");
+        professorLindoDoMeuCoracao.setEmail("dcruz@univille.br");
         storyDoProfesssorLindoDoMeuCoracao.push(professorLindoDoMeuCoracao.toString());
 
-        professorLindoDoMeuCoracao.setName("Alanzoka");
-        professorLindoDoMeuCoracao.setPhone("(44)98899-0000");
+        professorLindoDoMeuCoracao.setName("alanzoka");
+        professorLindoDoMeuCoracao.setPhone("846515");
         professorLindoDoMeuCoracao.setEmail("allan@udesc.br");
         storyDoProfesssorLindoDoMeuCoracao.push(professorLindoDoMeuCoracao.toString());
         storyDoProfesssorLindoDoMeuCoracao.CtrlZ();
+        storyDoProfesssorLindoDoMeuCoracao.CtrlZ();
+        storyDoProfesssorLindoDoMeuCoracao.CtrlZ();
+        storyDoProfesssorLindoDoMeuCoracao.CtrlY();
+        storyDoProfesssorLindoDoMeuCoracao.CtrlY();
 
         professorLindoDoMeuCoracao.setEmail("aallan@olx.br");
         storyDoProfesssorLindoDoMeuCoracao.push(professorLindoDoMeuCoracao.toString());
 
-        professorLindoDoMeuCoracao.setName("Alanzito");
-        storyDoProfesssorLindoDoMeuCoracao.push(professorLindoDoMeuCoracao.toString());
-        storyDoProfesssorLindoDoMeuCoracao.CtrlZ();
-        storyDoProfesssorLindoDoMeuCoracao.CtrlY();
         System.out.println(storyDoProfesssorLindoDoMeuCoracao.toString());
     }
 }
